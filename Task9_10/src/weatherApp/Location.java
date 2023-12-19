@@ -1,10 +1,12 @@
+package weatherApp;
 
 public class Location {
     private String coordinates; // Unique
     private String name;
     private String country;
     
-    public void searchForLocation() {
+    public String searchForLocation(String name) {
         // Method implementation
+        return name;
     }
 }

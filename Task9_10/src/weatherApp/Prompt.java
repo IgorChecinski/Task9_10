@@ -1,3 +1,4 @@
+package weatherApp;
 
 public class Prompt {
     private String content;

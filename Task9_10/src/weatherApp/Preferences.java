@@ -1,3 +1,4 @@
+package weatherApp;
 
 public class Preferences {
     private String temperatureUnit;

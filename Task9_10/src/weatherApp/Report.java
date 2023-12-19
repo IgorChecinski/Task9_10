@@ -1,3 +1,5 @@
+package weatherApp;
+
 import java.util.Date;
 
 public class Report {

@@ -1,3 +1,4 @@
+package weatherApp;
 
 public class Weather {
     private double temperature;

@@ -1,3 +1,5 @@
+package weatherApp;
+
 import java.util.List;
 
 public class SearchHistory {
