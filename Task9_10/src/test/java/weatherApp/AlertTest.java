@@ -1,7 +1,6 @@
-package test;
+package weatherApp;
 
 import org.junit.jupiter.api.Test;
-import weatherApp.Alert;
 
 import static org.junit.jupiter.api.Assertions.*;
 

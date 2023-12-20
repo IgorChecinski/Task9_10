@@ -1,9 +1,8 @@
-package test;
+package weatherApp;
 
 import org.junit.jupiter.api.Test;
-import weatherApp.Location;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LocationTest {
 
