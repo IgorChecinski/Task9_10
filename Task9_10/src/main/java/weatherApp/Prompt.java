@@ -6,4 +6,12 @@ public class Prompt {
     public void enterThePrompt(String Prompt) {
         // Method implementation
     }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
 }

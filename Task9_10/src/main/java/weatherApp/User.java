@@ -10,6 +10,7 @@ public class User {
     private Preferences preferences;
     private List<Report> reports;
     private SearchHistory searchHistory;
+    private List<Alert> alerts;
 
     public User(String name, Preferences preferences, List<Report> reports, SearchHistory searchHistory) {
         this.name = name;
@@ -56,5 +57,13 @@ public class User {
 
     public void setSearchHistory(SearchHistory searchHistory) {
         this.searchHistory = searchHistory;
+    }
+
+    public List<Alert> getAlerts() {
+        return alerts;
+    }
+
+    public void setAlerts(List<Alert> alerts) {
+        this.alerts = alerts;
     }
 }

@@ -17,4 +17,28 @@ public class Report {
     public void reportBug() {
         // Implementation for reporting a bug
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getBugDescription() {
+        return bugDescription;
+    }
+
+    public void setBugDescription(String bugDescription) {
+        this.bugDescription = bugDescription;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 }

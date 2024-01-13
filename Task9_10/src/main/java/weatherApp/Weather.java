@@ -4,11 +4,13 @@ public class Weather {
     private double temperature;
     private double humidity;
     private double windSpeed;
+    private Location location;
 
-    public Weather(double temperature, double humidity, double windSpeed) {
+    public Weather(double temperature, double humidity, double windSpeed, Location location) {
         this.temperature = temperature;
         this.humidity = humidity;
         this.windSpeed = windSpeed;
+        this.location = location;
     }
 
     public void listenToSuggestedMusic() {
@@ -37,5 +39,13 @@ public class Weather {
 
     public void setWindSpeed(double windSpeed) {
         this.windSpeed = windSpeed;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
     }
 }
